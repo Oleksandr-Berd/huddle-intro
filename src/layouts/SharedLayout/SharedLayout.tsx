@@ -8,9 +8,11 @@ const SharedLayout: React.FC = () => {
   return (
     <SC.SharedLayoutStyled>
       <Header />
-      <Hero/>
-      <Contents/>
-      <Footer/>
+      <SC.DeskCon>
+        <Hero />
+        <Contents />
+      </SC.DeskCon>
+      <Footer />
     </SC.SharedLayoutStyled>
   );
 };
